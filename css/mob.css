@@ -1,0 +1,155 @@
+/*모바일 버전*/
+
+.mob {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background: rgba(255, 200, 235, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  margin-top: 10px;
+}
+.logo img {
+  width: 51px;
+  height: 32px;
+}
+.dn {
+  display: none;
+}
+.db {
+  display: block;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.db img {
+  width: 30px;
+}
+.nav_Bar {
+  top: 5px;
+  right: 20px;
+}
+.main_Img a img {
+  width: 100%;
+  height: 880px;
+  object-fit: cover;
+}
+.main_Text {
+  left: 25px;
+  top: 530px;
+}
+.main_Text h2 {
+  font-size: 38px;
+}
+.main_Text p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 0;
+  margin-bottom: 20px;
+}
+.main_Text span {
+  padding: 10px 25px;
+}
+.section_Headertext h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+.section_Headertext h2 img {
+  padding-top: 10px;
+}
+.section_Headertext p {
+  width: 160px;
+  font-size: 13px;
+  line-height: 35px;
+}
+.main_video iframe {
+  width: 100%;
+  height: 567px;
+}
+.odj_Img {
+  object-fit: contain;
+  width: 100%;
+  height: 620px;
+}
+.obj_Text {
+  left: 23%;
+  top: 2100px;
+  text-align: center;
+}
+.obj_Text h2 a {
+  font-size: 50px;
+}
+.obj_Text p {
+  font-size: 24px;
+}
+.obj_Text span {
+  gap: 10px;
+}
+
+.goods {
+  width: 100%;
+}
+.beauty {
+  width: 1008px;
+  height: 1492px;
+  padding: 90px 0 0;
+}
+.beauty h2 {
+  font-size: 30px;
+}
+.beauty > ul {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 470px 470px;
+  justify-content: center;
+}
+.beauty > ul > li {
+  text-align: center;
+}
+.beauty > ul > li img {
+  width: 470px;
+  height: 582px;
+}
+
+.beauty .hash a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  line-height: 100%;
+  text-align: center;
+}
+.beauty .name a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  line-height: 133%;
+  margin-top: 10px;
+}
+.beauty .about a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: 140%;
+  margin-top: 15px;
+}
+.beauty .small a {
+  font-size: 12px;
+  color: #5e5e5e;
+}
+footer {
+  padding: 0;
+  border-top: 1px solid #ccc;
+}
+
+.copy {
+  margin-top: 22px;
+  font-size: 13px;
+}

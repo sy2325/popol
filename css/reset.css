@@ -1,0 +1,52 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img,
+input {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+small {
+  font-size: inherit;
+  font-weight: normal;
+}
+address,
+em {
+  font-size: normal;
+}
+fieldset,
+img,
+button {
+  border: 0;
+}
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+img {
+  vertical-align: top;
+}

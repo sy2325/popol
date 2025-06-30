@@ -1,0 +1,80 @@
+/*태블릿 버전*/
+
+.tb {
+  width: 1500px;
+}
+.tab {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: rgba(255, 200, 235, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.navbar_contain,
+.nav_Bar,
+.beauty {
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gnb {
+  text-align: center;
+}
+.gnb li {
+  padding: 5px 35px;
+  text-align: center;
+}
+.main_Img a {
+  margin: auto;
+}
+.main_Img a img {
+  width: 100%;
+}
+.main_Text {
+  left: 130px;
+}
+.main_video iframe {
+  width: 100%;
+}
+
+.beauty {
+  width: 1250px;
+  height: 768px;
+  margin-bottom: 160px;
+  padding: 130px 0 0;
+  align-items: center;
+}
+
+.goods {
+  width: 300px;
+  height: 120px;
+  padding: 24px 20px 0;
+  text-align: center;
+}
+.beauty > ul > li img {
+  width: 300px;
+  height: 371px;
+}
+.beauty .name a {
+  word-break: keep-all;
+}
+.odj_Img a img {
+  width: 100%;
+}
+.obj_Text {
+  display: inline-block;
+  position: absolute;
+  left: 30%;
+  top: 2600px;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+footer {
+  padding: 35px 50px;
+}
